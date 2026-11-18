@@ -1,0 +1,17 @@
+feature,decision,evidence
+Pregnancies,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+Glucose,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+BloodPressure,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+SkinThickness,Exclude,High missingness: 29.6%; retain missing flag
+Insulin,Exclude,High missingness: 48.7%; retain missing flag
+BMI,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+DiabetesPedigreeFunction,Exclude,Keep log1p representation instead of duplicate representation
+Age,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+Outcome,Target,Keep as target; never a predictor
+Glucose_Missing,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+BloodPressure_Missing,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+SkinThickness_Missing,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+Insulin_Missing,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+BMI_Missing,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+Glucose_BMI_Interaction,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"
+Log_DiabetesPedigree,Keep,"Observed predictor, missingness flag, or exploratory engineered feature"

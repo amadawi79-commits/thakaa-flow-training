@@ -1,0 +1,6 @@
+column,zero_to_missing,affected_percent,fill_median,decision
+Glucose,5,0.65,117.0,Replace zero with NaN; median fill; retain missing flag
+BloodPressure,35,4.56,72.0,Replace zero with NaN; median fill; retain missing flag
+SkinThickness,227,29.56,29.0,Replace zero with NaN; median fill; retain missing flag
+Insulin,374,48.7,125.0,Replace zero with NaN; median fill; retain missing flag
+BMI,11,1.43,32.3,Replace zero with NaN; median fill; retain missing flag
